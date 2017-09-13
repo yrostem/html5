@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    text-decoration: inherit;
+    padding: 10px;
+}
+
+li a {
+}
+li:hover{
+}
+img{
+    display: block;
+    padding: 5px;
+}
+.nieuws {
+    display:inline-block;
+    vertical-align: text-top;
+    max-width: 32%;
+    padding: 5px;
+}
