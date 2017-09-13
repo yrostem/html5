@@ -26,7 +26,7 @@ li a {
 	width: 100%;
 	z-index: 0;
 }
-.artikel{
+div.artikel{
 	font-size: 20px;
 	border-style: dashed;
 	max-width: 50%;
@@ -35,12 +35,8 @@ li a {
 	overflow: hidden;
 
 }
-.tabel{
-	overflow: hidden;
-	max-width: 50%;
-}
 
-.footer{
+div.footer{
 	border-style: none;
 	overflow: hidden;
 	text-align: left;
@@ -51,19 +47,20 @@ li a:hover {
     background-color: #111111;
 }
 </style>
+  <body>
 </head>
 <header>
 <center><img src="http://www.buyabanner.com.au/media/logo/image/demo/sample-logo.png"></center>
+  <nav>
+    <ul>
+      <li><a href="#">Nieuws</a></li>
+      <li><a href="#">Over ons</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 </header>
-<body>
-<nav>
-<ul>
-  <li><a href="#">Nieuws</a></li>
-  <li><a href="#">Over ons</a></li>
-  <li><a href="#">Product</a></li>
-  <li><a href="#">Contact</a></li>
-</ul>
-</nav>
+<main>
 <div class="banner">
 <img src="http://www.gubbelsconsult.nl/wp-content/uploads/2015/02/Banner-NEN3140.png" class="banner">
 </div>
@@ -106,6 +103,7 @@ li a:hover {
 </tbody>
 </table>
 </table>
+</main>
 </body>
 <footer>
 <div class="footer">
