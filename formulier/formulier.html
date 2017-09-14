@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <style>
+        body{
+            background-color: lavender;
+            font-family: Quicksand, Arial;
+            font-size: medium;
+        }
+        form ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        form ul li{
+            padding: 10px;
+        }
+        form ul li input {
+            position: absolute;
+            left: 150px;
+        }
+        form select{
+            left: 150px;
+            position: absolute;
+        }
+        .links{
+            position: absolute;
+            max-width: 50%;
+        }
+        .rechts{
+            position: absolute;
+            left: 40%;
+            padding: 120px;
+        }
+        .knoppen{
+            position: absolute;
+            left: 10%;
+            margin-top: 37%;
+            float: left;
+            display: inline-block;
+        }
+
+
+    </style>
+</head>
+<body>
+<form action ="http://www.savatarian.com/html5/form.php" method="post">
+    <div class="links">
+    <ul>
+        <li>
+            <h2>Voorbeeldformulier</h2>
+            <span class="Verplicht">* verplicht veld</span>
+        </li>
+        <li>
+            <label id="voornaam">Voornaam:</label>
+            <input type="text" placeholder="Voornaam" name="voornaam"/>
+        </li>
+        <li>
+            <label id="tussenvoegsel">Tussenvoegsel:</label>
+            <input type="text" placeholder="Tussenvoegsel" name="tussenvoegsel"/>
+        </li>
+        <li>
+            <label id="geslacht">Geslacht:</label>
+            <div><input type="radio" name="geslacht" id="man" value="man">Man</div>
+            <div>  <input type="radio" name="geslacht" id="vrouw" value="vrouw">Vrouw</div>
+        </li>
+        <li>
+            <label id="kleur">Kleur ogen:</label>
+            <select>
+                <option>Groen</option>
+                <option>Zwart</option>
+                <option>Bruin</option>
+            </select>
+        </li>
+        <li>
+            <label id="datum">Geboortedatum:</label>
+            <input type="date" name="geboortedatum" value="geboortedatum"/>
+        </li>
+        <li>
+            <label id="omschrijving">Omschrijving:</label>
+            <textarea rows="10" placeholder="Schrijf een korte omschrijving" cols="40"></textarea>
+        </li>
+    </ul>
+    </div>
+    <div class="rechts">
+        <ul>
+            <label>Lekker eten:</label>
+            <label><input type="checkbox"  name="sperziebonen"/>Sperziebonen</label><br>
+            <label><input type="checkbox" style="margin-left:90px" name="aardappelen"/>Aardappelen</label><br>
+            <label><input type="checkbox"  style="margin-left:90px" name="hamburger"/>Hamburger</label>
+        </ul>
+    </div>
+            <input type="submit" class="knoppen" style="margin-left: 67%;" name="verzenden" value="Ok"/>
+            <input type="submit" class="knoppen" style="margin-left: 60%;" name="annuleren" value="Annuleer"/>
+</form>
+</body>
+</html>
