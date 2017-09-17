@@ -1,0 +1,248 @@
+@media only screen and (min-width: 760px) {
+    body {
+        background-color: antiquewhite;
+    }
+
+    :visited {
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    #nieuws {
+        width: 45%;
+        float: left;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    #gitaar {
+        width: 45%;
+        display: inline-block;
+        float: right;
+        padding-left: 50%;
+        overflow: hidden;
+    }
+    #drums {
+        width: 45%;
+        display: inline-block;
+        float: right;
+        overflow: hidden;
+    }
+    #saxofoon {
+        width: 45%;
+        display: inline-block;
+        overflow: hidden;
+        float: right;
+    }
+
+
+    #trompet {
+        width: 45%;
+        float: right;
+        display: inline-block;
+        overflow: hidden;
+        padding-left: 50%;
+    }
+    h2{
+        color: rosybrown;
+    }
+
+    .logo {
+        text-align: center;
+
+
+    }
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .topnav a {
+        float: left;
+        display:block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+}
+@media only screen and (max-width: 479px) {
+    body {
+        background-color: antiquewhite;
+    }
+
+    :visited {
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    #nieuws {
+        width: 100%;
+        padding-right: 40%;
+        display: block;
+        overflow: hidden;
+    }
+
+    #gitaar {
+        width: 100%;
+        padding-right: 40%;
+        display: block;
+        overflow: hidden;
+    }
+
+    #saxofoon {
+        width: 100%;
+        padding-right: 40%;
+        display: block;
+        overflow: hidden;
+    }
+
+    #drums {
+        width: 100%;
+        padding-right: 40%;
+        display: block;
+        overflow: hidden;
+    }
+
+    #trompet {
+        width: 100%;
+        padding-right: 40%;
+        display: block;
+        overflow: hidden;
+    }
+    h2{
+        color: rosybrown;
+    }
+
+    .logo {
+        text-align: center;
+
+
+    }
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .topnav a {
+        float: left;
+        display:block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1020px){
+
+    body {
+        background-color: antiquewhite;
+    }
+
+    :visited {
+        color: white;
+    }
+
+
+
+    #nieuws {
+        width: 400px;
+        padding: 20px;
+        float: left;
+    }
+
+    #gitaar {
+        width: 400px;
+        text-align: center;
+        padding: 20px;
+        float: left;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    #saxofoon {
+        width: 400px;
+        padding: 20px;
+        display: inline-block;
+        float: right;
+        overflow: hidden;
+    }
+
+    #drums {
+        width: 400px;
+        padding: 20px;
+        display: inline-block;
+        float: left;
+        overflow: hidden;
+    }
+
+    #trompet {
+        width: 400px;
+        padding: 20px;
+        display: inline-block;
+        float: right;
+        overflow: hidden;
+    }
+
+    h2{
+        color: rosybrown;
+    }
+
+    .logo {
+        text-align: center;
+        height: auto;
+        background-size: 100% auto !important;
+        width: 100%;
+
+
+    }
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .topnav a {
+        float: left;
+        display:block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+}
