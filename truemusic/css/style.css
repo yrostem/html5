@@ -1,6 +1,7 @@
 @media only screen and (min-width: 480px) {
     body {
         background-color: antiquewhite;
+        font-family:raleway, sans-serif;
     }
 
     :visited {
@@ -52,6 +53,8 @@
 
     .logo {
         text-align: center;
+        background-color: cyan;
+
 
 
     }
@@ -82,6 +85,7 @@
 @media only screen and (max-width: 479px) and (min-width: 50px) {
     body {
         background-color: antiquewhite;
+        font-family:raleway, sans-serif;
     }
 
     :visited {
@@ -132,6 +136,8 @@
 
     .logo {
         text-align: center;
+        background-color: cyan;
+
 
 
     }
@@ -163,6 +169,7 @@
 
     body {
         background-color: antiquewhite;
+        font-family:raleway, sans-serif;
     }
 
     :visited {
@@ -172,14 +179,13 @@
 
 
     #nieuws {
-        width: 400px;
+        width: 33%;
         padding: 20px;
         float: left;
     }
 
     #gitaar {
-        width: 400px;
-        text-align: center;
+        width: 33%;
         padding: 20px;
         float: left;
         overflow: hidden;
@@ -187,27 +193,25 @@
     }
 
     #saxofoon {
-        width: 400px;
-        padding: 20px;
+        width: 25%;
         display: inline-block;
         float: right;
         overflow: hidden;
     }
 
     #drums {
-        width: 400px;
-        padding: 20px;
+        width: 25%;
         display: inline-block;
-        float: left;
+        float: right;
         overflow: hidden;
     }
 
     #trompet {
-        width: 400px;
-        padding: 20px;
-        display: inline-block;
-        float: right;
+        width: 25%;
+        padding-left: 40%;
+        float: left;
         overflow: hidden;
+        display: inline-block;
     }
 
     h2{
@@ -218,6 +222,7 @@
         text-align: center;
         height: auto;
         background-size: 100% auto !important;
+        background-color: cyan;
         width: 100%;
 
 
