@@ -3,6 +3,9 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Kapper</title>
 </head>
 <header>
@@ -10,6 +13,7 @@
         <img src="img/scissor-magic-logo.jpg">
     </div>
 
+    <div class="nav">
     <nav>
         <ol>
             <li>
@@ -26,8 +30,10 @@
             </li>
         </ol>
     </nav>
+    </div>
 </header>
 <body>
+<div class="openingstijdenPc">
 <table border="2" width="50%" cellpadding="1">
     <tbody>
     <th colspan="9" style="text-align: left;">Openingstijden</th>
@@ -67,6 +73,74 @@
         <td>14:30 - 16:00</td>
     </tr>
     </tbody>
-</body>
 </table>
+</div>
+
+<div class="openingstijdenMobiel">
+    <table border="2" width="10px" cellpadding="4">
+        <tbody>
+        <th colspan="9" style="text-align: left;">Openingstijden</th>
+        <tr>
+            <td colspan="4">Kapsalon Scissor magic<br> in huizen</td>
+            <td colspan="4">Kapsalon Scissor magic<br> in Naarden</td>
+            <td colspan="4">Kapsalon Scissor magic<br> in Utrecht</td>
+        </tr>
+        <tr>
+            <td>Ma - Vr</td>
+            <td>Za</td>
+            <td>Zo</td>
+            <td>Ma - Vr</td>
+            <td>Za</td>
+            <td>Zo</td>
+            <td>Ma - Vr</td>
+            <td>Za</td>
+            <td>Zo</td>
+        </tr>
+        <tr>
+            <td>09:00 - 12:00</td>
+            <td>09:00 - 12:00</td>
+            <td rowspan="2">gesloten</td>
+            <td>09:00 - 12:00</td>
+            <td>09:00 - 12:00</td>
+            <td rowspan="2">Gesloten</td>
+            <td>09:00 - 12:00</td>
+            <td>09:00 - 12:00</td>
+            <td rowspan="2">Gesloten</td>
+        </tr>
+        <tr>
+            <td>13:30 - 18:00</td>
+            <td>13:30 - 17:00</td>
+            <td>14:30 - 18:00</td>
+            <td>14:30 - 18:00</td>
+            <td>14:30 - 17:00</td>
+            <td>14:30 - 16:00</td>
+        </tr>
+        </tbody>
+    </table><br>
+    <table border="1px">
+        <td>
+            <form action="#" method="post" name="formulier">
+            <label>Voornaam</label><br>
+            <input type="text" name="voornaam" placeholder="Voornaam"/>
+            <label>Achternaam</label><br>
+            <input type="text" name="achternaam" placeholder="Achternaam"/><br>
+            <label>Datum</label><Br>
+            <input type="date" name="datum"><br>
+            <label>Tijd</label><br>
+            <input type="time" name="tijd"></br>
+            <label>Geslacht</label><br>
+                <input type="radio" name="geslacht" value="man"> Man<br>
+                <input type="radio" name="geslacht" value="vrouw"> Vrouw<br>
+                <select name="programma">
+                    <option>Wassen, knippen, drogen</option>
+                    <option>Advies & highlights</option>
+                    <option>Balyage, modelföhnen, permanent kleuring</option>
+                </select><br>
+                <input type="submit" name="ok" value="Ok" style="width: 300px">
+            </form>
+
+        </td>
+    </table>
+</div>
+</body>
 </html>
